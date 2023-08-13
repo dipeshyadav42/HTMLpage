@@ -1,0 +1,43 @@
+#mid h2{
+    text-align: center;
+    color: #34495E;
+    font-family: 'Caveat', cursive;
+}
+#mid h3{
+    text-align: center;
+    color: #34495E;
+    font-family: 'Caveat', cursive;
+}
+#mid table tbody tr td{
+    font-size: 14px;
+    
+}
+#login{
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+#login h2{
+    text-align: center;
+    color: blueviolet;
+}
+#dashboard{
+    background: linear-gradient(to right ,rgb(255,250,205),rgb(100,140,17));
+    font-family: 'Caveat', cursive;
+    padding: 10px 0px;
+}
+#dashboard button{
+    float: right;
+}
+
+#footer{
+    background: linear-gradient(to right ,rgb(255,250,205),rgb(100,140,17));
+    font-family: 'Caveat', cursive;
+}
+#footer h2{
+    color: red;
+    text-align: center;
+}
+.bi-trash-fill{
+    font-size: 25px;
+}

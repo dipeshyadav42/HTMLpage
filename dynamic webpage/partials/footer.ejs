@@ -1,0 +1,37 @@
+<section class="footer">
+    <img class="footer-img" src="/media/border2.png" alt="">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="/media/bear-digital-design_25030-5559-removebg-preview.png" alt="" width="150px">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reiciendis quisquam, repudiandae eius odit a, soluta dolorem sunt voluptates asperiores inventore non, consectetur laboriosam! Incidunt molestias aperiam beatae alias eligendi!</p>
+              </div>
+              <div class="col-md-4">
+                <h2>Indigo Pvt Ltd</h2>
+               <p><span><i class="bi bi-buildings"></i></span> &nbsp<%=AddressRecord.add%></p>
+                <p><span><i class="bi bi-telephone"></i></span>&nbsp 0141-<%=AddressRecord.landline%></p>
+                <p><span><i class="bi bi-phone"></i></span> &nbsp +91<%=AddressRecord.mobile%></p>
+                <p><span><i class="bi bi-envelope"></i></span>  &nbsp  <%=AddressRecord.email%></p>
+              </div> 
+              <div class="col-md-4">
+                  <h2>Query Form</h2>
+                  <form action="/queryrecord" method="post">
+                      <input type="email" name="email" id="" placeholder="enter email" class="form-control">
+                      <textarea name="query" id="" placeholder="enter Query" class="form-control  mt-2 mb-2"></textarea>
+                      <button type="submit" class="btn btn-success form-control">Post Query</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-md-12">
+                <a href="<%=AddressRecord.insta%>" target="_blank"><img src="/media/instagram_imge-removebg-preview.png" alt="" class="footer-logo"></a>
+                <a href="<%=AddressRecord.twitter%>" target="_blank"><img src="/media/tmp_a98abeba-36e0-496f-9462-216b9f9ba8e0.png" alt="" class="footer-logo"></a> 
+                <img src="/media/telegram_logo-removebg-preview.png" alt="" class="footer-logo">
+                <img src="/media/watsapp_logo-removebg-preview.png" alt="" class="footer-logo">
+              </div>
+          </div>
+      </div>
+  </section>

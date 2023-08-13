@@ -1,0 +1,95 @@
+#mid h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-family:'Anton', sans-serif;
+}
+#mid p{
+    text-align: justify;
+    font-size:large;
+}
+.header{
+    background: linear-gradient(to right ,rgb(255,250,205),rgb(100,140,17));
+   
+}
+.header img{
+    width: 120px;
+}
+
+.header ul li a{
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+}
+.header ul li a:hover{
+    color:  rgb(220,220,220);
+}
+
+.container-fluid{
+    padding-left: 0px;
+}
+.header .bi-list{
+    color: white;
+    font-size: 30px;
+}
+.banner{
+    background: linear-gradient(to right ,rgb(255,250,205),rgb(100,140,17));
+
+}
+.banner p{
+    color: white;
+}
+.banner .banner-img{
+    width: 120px;
+}
+.banner img{
+    width: 100%;
+}
+
+.services h4{
+    color:black;
+   
+}
+.services h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:'Anton', sans-serif;
+}
+.services img{
+    width: 100px;
+}
+.services p{
+    text-align: justify;
+}
+.test h1{
+    font-family: 'Rampart One', cursive; ;
+    text-align: center;
+}
+.test img{
+    width: 200px;
+    margin:15px 0px;
+}
+.footer{
+    background: linear-gradient(to top ,rgb(255,250,205),rgb(100,140,17));
+    padding-bottom: 30px;
+}
+.footer h2{
+    color: rgb(255,0,255);
+    font-family: 'Mynerve', cursive;
+
+}
+
+
+.footer span{
+    color: white;
+    font-size: 20px;
+}
+.footer p{
+    color:  rgb(0,0,128);
+}
+.footer .footer-logo{
+    width: 60px;
+}
+.footer .footer-img{
+    width: 100%; 
+    
+}
